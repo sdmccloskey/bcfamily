@@ -15,9 +15,12 @@
   </head>
 
   <body class="<%= page_classes %>">
+
     <%= partial 'layouts/partials/navbar' %>
+
     <main>
-      <!-- CONTENT SHOWS HERE -->
+      <%= partial 'layouts/partials/slider' %>
+      
       <%= yield %>
     </main>
     <%= partial 'layouts/partials/footer' %>

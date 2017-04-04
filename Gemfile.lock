@@ -56,7 +56,7 @@ GEM
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    materialize-sass (0.97.6)
+    materialize-sass (0.98.0)
       sass (~> 3.3)
     memoist (0.14.0)
     middleman (4.1.9)
@@ -144,7 +144,7 @@ PLATFORMS
 DEPENDENCIES
   font-awesome-sass (~> 4.6.2)
   jquery-middleman
-  materialize-sass
+  materialize-sass (~> 0.98.0)
   middleman (>= 4.0.0)
   middleman-compass (>= 4.0.0)
   middleman-google-analytics (~> 2.0)
@@ -155,4 +155,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
